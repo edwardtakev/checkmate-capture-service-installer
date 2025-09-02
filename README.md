@@ -29,15 +29,12 @@ This repository provides a script to install and configure the **Capture agent**
 git clone https://github.com/edwardtakev/checkmate-capture-service-installer
 cd checkmate-capture-service-installer
 ```
-
-2. Make the script executable and run it:
+> **Note:** Replace `### CHANGE ME !!` before running the script in the systemd service file with your actual `API_SECRET` from Checkmate.
+2. Run the script:
 
 ```bash
-chmod +x install_capture.sh
 ./install_capture.sh
 ```
-
-> **Note:** Replace `### CHANGE ME !!` in the systemd service file with your actual `API_SECRET` from Checkmate.
 
 ---
 
