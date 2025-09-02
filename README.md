@@ -36,7 +36,7 @@ cd checkmate-capture-service-installer
 ./install_capture.sh
 ```
 ---
-> **⚠ Note:** If you didn’t replace `CHANGE-ME` before running the script, you can update it afterwards by editing the service file with `sudo nano /etc/systemd/system/capture.service`,replace `CHANGE-ME` with your actual `API_SECRET`, then save and apply the changes with `sudo systemctl daemon-reload`, and finally restart the service using `sudo systemctl restart capture.service`.
+> **⚠ Note:** If you didn’t replace `CHANGE-ME` before running the script, you can update it afterwards by editing the service file with `sudo nano /etc/systemd/system/capture.service`, replace `CHANGE-ME` with your actual `API_SECRET`, then save and apply the changes with `sudo systemctl daemon-reload`, and finally restart the service using `sudo systemctl restart capture.service`.
 
 ---
 ## Debug mode
