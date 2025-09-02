@@ -30,7 +30,7 @@ git clone https://github.com/edwardtakev/checkmate-capture-service-installer.git
 cd checkmate-capture-service-installer
 ```
 
-> **⚠ Note:** Before running the script, open the systemd service file and replace `### CHANGE ME !!` with your actual `API_SECRET` from Checkmate.
+> **⚠ Note:** Before running the script, open `install_capture.sh` file and replace `### CHANGE ME !!` with your actual `API_SECRET` from Checkmate.
 
 ---
 
