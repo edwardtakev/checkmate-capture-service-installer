@@ -28,15 +28,15 @@ git clone https://github.com/edwardtakev/checkmate-capture-service-installer.git
 cd checkmate-capture-service-installer
 ```
 
-> **⚠ Note:** Before running the script, open `install_capture.sh` file and replace `CHANGE-ME` with your actual `API_SECRET` from Checkmate.
+> **⚠ Note:** Before running the script, open `install_capture.sh` file and replace `CHANGE-ME` with your actual `API_SECRET`.
 
 ### 2. Run the installation script
 
 ```bash
 ./install_capture.sh
 ```
-
-> **⚠ Note:** If you didn’t replace `CHANGE-ME` before running the script, you can update it afterwards by editing the service file with `sudo nano /etc/systemd/system/capture.service`, then save and apply the changes with `sudo systemctl daemon-reload`, and finally restart the service using `sudo systemctl restart capture.service`.
+---
+> **⚠ Note:** If you didn’t replace `CHANGE-ME` before running the script, you can update it afterwards by editing the service file with `sudo nano /etc/systemd/system/capture.service`,replace `CHANGE-ME` with your actual `API_SECRET`, then save and apply the changes with `sudo systemctl daemon-reload`, and finally restart the service using `sudo systemctl restart capture.service`.
 
 ---
 ## Debug mode
