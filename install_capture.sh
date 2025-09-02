@@ -34,7 +34,7 @@ After=network.target
 
 [Service]
 Type=simple
-Environment=API_SECRET=### CHANGE ME !!
+Environment=API_SECRET=CHANGE-ME
 Environment=GIN_MODE=release
 ExecStart=/usr/local/bin/capture
 Restart=always
