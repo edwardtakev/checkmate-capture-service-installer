@@ -26,8 +26,8 @@ This repository provides a script to install and configure the **Capture agent**
 1. Clone this repository:
 
 ```bash
-git clone <your-repo-url>
-cd <your-repo>
+git clone https://github.com/edwardtakev/checkmate-capture-service-installer
+cd https://github.com/edwardtakev/checkmate-capture-service-installer
 ```
 
 2. Make the script executable and run it:
